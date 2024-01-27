@@ -1,0 +1,188 @@
+*,
+html, body { 
+ 
+    margin: 0;
+    padding: 0;
+
+}
+
+:root { 
+ --warna-utama: rgb(4, 111, 141);
+ --warna-kedua: white;
+ --main-bg: #01423f;
+--secondary-bg: #fdffff;
+--txt-primary: #f7f7f7;
+--txt-secondary: #222;
+--icon-bg-primary: tomato;
+--icon-bg-secondary: #7777777;
+}
+
+
+.image {
+    height: 150px;
+}
+
+.image-pes {
+    height: 225px;
+    width: 350px;
+}
+
+
+.gambar {
+    border: none;
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.judul {
+    font-family: 'lilita one', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2 {
+    font-family: 'bebas neue', sans-serif; 
+}
+
+
+
+.tombol {
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    height: 30px;
+    
+}
+
+
+button {
+    width: 6em
+  }
+  
+
+.tombol:hover span {
+    display: none;
+  }
+
+.tombol:hover {
+    background-color: var(--warna-utama);
+  transition: ease-in-out .2s;
+}
+
+.tombol:hover:before {
+    color: var(--warna-kedua);
+    content: "LIHAT SELENGKAPNYA PADA LINK INI "
+    
+  }
+
+
+
+
+.paragraf-GAMELAEN {
+    display: flex;
+    justify-content: center;
+    align-items:   center ;
+}
+
+
+.container-gamelaen {
+    display: flex;
+    margin-top: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.kartu {
+    margin-top: 20px;
+      
+}
+
+.NPA {
+    font-weight: bold;
+    color: rgb(186, 0, 0);
+}
+
+
+
+.cm {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cm-h1 {
+    width: 10em;
+}
+
+
+.container {
+    font-family: 'lilita one', sans-serif; 
+    width: 100%;
+    height: auto;
+    margin: 1000;
+    
+}
+
+.card1 {
+
+    border: 1px solid white;
+    background-color: var(--secondary-bg) ;
+    color:  var(--txt-secondary);
+    padding: 30px;  
+    margin: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    
+
+   
+    
+.icons {
+        margin-top: 8px;
+        font-size: 23px;
+        color: var(--main-bg);
+    }
+
+    .description {
+        margin-top: 10px;   
+        font-size: .8em ;
+    }
+ 
+.tekan {
+    width: 100%;
+    text-decoration: none;
+    width: 100%;
+    background-color:rgb(4, 93, 188);
+    color: white;
+}
+
+.tekan:hover {
+    background-color:rgb(0, 61, 127);
+    transition: ease-in-out .2s;
+}
+ 
+
+
+
+   
+    
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
